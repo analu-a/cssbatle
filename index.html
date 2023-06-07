@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cssbatle</title>
+</head>
+<body>
+
+    <!-- Fiz praticamente os mesmos comandos para os quadrados, porem fui mudando as posições,
+         fiz essas mudanças utilizando uma div para cada -->
+
+    <div class="quadrados">
+        <div class="qua1">
+            <style>
+                *{
+                    /* Fiz esses comandos para poder zerar todas as margens e tamanhos */
+                    margin: 0;
+                    padding: 0;
+                  background: #62374e;
+                }
+
+                .qua1 {
+                    /* Esses eu utilizei para definir a altura e largura do meu quadrado */
+                  width: 100px;
+                  height: 100px;
+
+                  /* Utilizei para definir a cor */
+                  background: #fdc57b;
+                    /* O position foi para eu poder movimentar o quadrado pela tela, já os outros dois comandos foi para 
+                    mostrar onde deveriam ficar */
+                  position: absolute;
+                  left: 10rem;
+                  top: 60px;
+                  
+                }
+              </style>
+        </div>
+        <div class="qua2">
+            <style>
+                .qua2 {
+                  width: 100px;
+                  height: 100px;
+                  background: #fdc57b;
+
+                  position: absolute;
+                  left: 80rem;
+                  top: 60px; 
+                }
+              </style>
+        </div>
+        
+        <div class="qua3">
+            <style>
+                .qua3 {
+                  width: 100px;
+                  height: 100px;
+                  background: #fdc57b;
+
+                  position: absolute;
+                  left: 80rem;
+                  top: 36rem; 
+                }
+              </style>
+        </div>
+
+        <div class="qua4">
+            <style>
+                .qua4 {
+                  width: 100px;
+                  height: 100px;
+                  background: #fdc57b;
+
+                  position: absolute;
+                  left: 10rem;
+                  top: 36rem; 
+                }
+              </style>
+        </div>
+    </div>
+</body>
+</html>
